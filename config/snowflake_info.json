@@ -1,0 +1,11 @@
+{
+    "enabled": false,
+    "account": "",
+    "user": "",
+    "password_env_var": "SNOWFLAKE_PASSWORD",
+    "warehouse": "",
+    "database": "DATALAKE",
+    "schema": "KICC",
+    "table": "I_POS_ITEM_CLASSIFY_RESULT",
+    "role": ""
+}

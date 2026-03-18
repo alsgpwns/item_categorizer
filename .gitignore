@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+.venv/
+.venv311/
+
+cache/
+logs/
+output/
+
+model/
+
+*.tar.gz
+kicc_item_categorizer_20260315/

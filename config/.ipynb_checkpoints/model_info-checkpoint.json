@@ -1,0 +1,24 @@
+{
+    "big_cate": {
+        "model_path": "./model/big_cate/roberta_big_cate_model.pth",
+        "label_path": "./model/big_cate/label_encoder_big_cate.pkl",
+        "bert_path" : "./model/klue_roberta_base"
+    },
+    "mid_cate": {
+        "model_path": "./model/mid_cate/roberta_mid_cate_model.pth",
+        "label_path": "./model/mid_cate/label_encoder_mid_cate.pkl",
+        "bert_path" : "./model/klue_roberta_base"
+    },
+    "small_cate": {
+        "model_path": "./model/small_cate/roberta_small_cate_model.pth",
+        "label_path": "./model/small_cate/label_encoder_small_cate.pkl",
+        "bert_path" : "./model/klue_roberta_base"
+    },
+    "small_fine_cate": {
+        "model_path": "./model/small_fine_cate/hard_moe_model.pt",
+        "small_cate_le": "./model/small_fine_cate/hard_small_cate_le.pkl",
+        "fine_cate_le_dict": "./model/small_fine_cate/hard_fine_cate_le_dict.pkl",
+        "label2_dict" : "./model/small_fine_cate/hard_label2_dict.pkl",
+        "bert_path" : "./model/klue_roberta_base"
+    }
+}
